@@ -1,0 +1,59 @@
+body {
+    background-color: #041e41;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+    width: 500px;
+    color: #e0004d;
+}
+
+#portfolio {
+    width: 180px;
+    
+
+}
+
+.links{
+    color: #e0004d;
+    
+}
+#name {
+    color: #fff;
+}
+
+#foto {
+    border-radius: 10%;
+    border-width: 5px;
+    border-color: black;
+    border-style: outset;
+}
+
+.italic {
+    color:#e0004d
+}
+
+.bold {
+    color: #e0004d;
+}
+
+#org {
+    font-size: 20px;
+}
+
+#work {
+    font-size: 18px; 
+}
+
+#html {
+    font-size: 16px;
+}
+
+#js {
+    font-size: 14px;
+}
+
+#css {
+    font-size: 12px;
+}
