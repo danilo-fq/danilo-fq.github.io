@@ -1,47 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Web - Danilo Ferreira</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <a class="links" href="#foto">Minha foto</a>
-    <a class="links" href="#sobre">Minha breve história</a>
-    <a class="links" href="#gosto">Gostos</a>
-    <a class="links" href="https://www.linkedin.com/in/danilo-fq/" target="_blanck">Linkedin</a>
-   
-    <h1 id="name"class="title">DANILO FERREIRA QUEIROZ</h1>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+      <div id="menu">
+        <a class="links" href="#foto">Minha foto</a>
+        <a class="links" href="#sobre">Minha breve história</a>
+        <a class="links" href="#gosto">Gostos</a>
+        <a
+          class="links"
+          href="https://www.linkedin.com/in/danilo-fq/"
+          target="_blanck"
+          >Linkedin
+        </a>
+      </div>
+    
+
+    <div id="name">
+      <h1>DANILO FERREIRA QUEIROZ</h1>
+    </div>
+
     <h2 id="portfolio" class="title">Portfólio Web</h2>
-   
-    <img id="foto" src="imagens/danilo.jpeg" alt="foto de Danilo Ferreira" width="400px">
-    
-    <h3 id="sobre" class="title">Sobre</h3>
-    
-    <p><em class="italic">Brasileiro</em> natural de <em class="italic">João Pessoa - PB</em> lugar onde o sol nasce primeiro.<br> Sou <strong class="bold"> estudante de Desenvolvimento Web pela Trybe </strong> iniciado em janeiro de 2022.<br>Sou formado em <em class="italic">Engenharia de Energias Renováveis</em> pela UFPB onde possuo <strong class="bold">um <br>ano de experiência</strong> na área de <strong class="bold">projetos fotovoltaicos</strong>. Decidi migrar de área <br>devido a finalidade que tenho com computadores, ao longo da minha jornada <br>profissional percebi certa inclinação pela área de tecnologia e <br>a pandemia foi um catalisador para essa migração.</p>
 
-    <h3 class="title">Habilidades Desenvolvidas</h3>
-    <ul>
-        <li id="org"><strong>Organização</strong></li>
-        <li id="work">Trabalho em Equipe</li>
-        <li id="html">HTML</li>
-        <li id="js">JavaScript</li>
-        <li id="css">CSS</li>
-    </ul>
+    <div>
+      <img id="foto" src="imagens/danilo.jpeg" alt="foto de Danilo Ferreira" />
+    </div>
 
-    <h3 id="gosto" class="title">O que eu mais gosto de fazer</h3>
-        <ol>
-            <li>Jogar no PC em grupo (
-               <a class="links" href="https://us.diablo3.com/pt-br/">Diablo</a>, 
-               <a class="links" href="https://www.leagueoflegends.com/pt-br/">League of Legends</a>,
-               <a class="links" href="https://playvalorant.com/pt-br/">Valorant</a>
-                )</li>
-            <li>Jogar Futebol</li>
-            <li>Praticar Jiu Jitsu</li>
-            <li>Assistir animes
-                (<a class="links" href="https://www.crunchyroll.com/pt-br/attack-on-titan">Atual</a>)</li>
-        </ol>
-    </body>
+    <div id="description">
+      <h3 id="sobre" class="title">Sobre</h3>
+      <p id="text">
+        <em class="italic">Brasileiro</em> natural de
+        <em class="italic">João Pessoa - PB</em> lugar onde o sol nasce
+        primeiro.<br />
+        Sou
+        <strong class="bold">
+          estudante de Desenvolvimento Web pela Trybe
+        </strong>
+        iniciado em janeiro de 2022.<br />Sou formado em
+        <em class="italic">Engenharia de Energias Renováveis</em> pela UFPB onde
+        possuo <strong class="bold">um <br />ano de experiência</strong> na área
+        de <strong class="bold">projetos fotovoltaicos</strong>. Decidi migrar
+        de área <br />devido a finalidade que tenho com computadores, ao longo
+        da minha jornada <br />profissional percebi certa inclinação pela área
+        de tecnologia e <br />a pandemia foi um catalisador para essa migração.
+      </p>
+    </div>
+
+    
+    <div id="skills">
+        <h3 class="title">Habilidades Desenvolvidas</h3>
+        <ul>
+          <li id="org" class="odd"><strong>Organização</strong></li>
+          <li id="work">Trabalho em Equipe</li>
+          <li id="html" class="odd">HTML</li>
+          <li id="js">JavaScript</li>
+          <li id="css" class="odd">CSS</li>
+        </ul> 
+    </div>
+
+    <div id="like">
+      <h3 id="gosto" class="title">O que eu mais gosto de fazer</h3>
+      <ol>
+        <li>
+          Jogar no PC em grupo (
+          <a class="links" href="https://us.diablo3.com/pt-br/">Diablo</a>,
+          <a class="links" href="https://www.leagueoflegends.com/pt-br/"
+            >League of Legends</a
+          >,
+          <a class="links" href="https://playvalorant.com/pt-br/">Valorant</a>
+          )
+        </li>
+        <li>Jogar Futebol</li>
+        <li>Praticar Jiu Jitsu</li>
+        <li>
+          Assistir animes (<a
+            class="links"
+            href="https://www.crunchyroll.com/pt-br/attack-on-titan"
+            >Atual</a
+          >)
+        </li>
+      </ol>
+    </div>
+  </body>
 </html>

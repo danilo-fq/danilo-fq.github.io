@@ -5,55 +5,62 @@ body {
 }
 
 .title {
-    width: 500px;
-    color: #e0004d;
+    width: 450px;
+    color: #e0004d; 
 }
 
 #portfolio {
-    width: 180px;
+    text-align: center;
+    width: auto;
+
     
 
 }
 
-.links{
-    color: #e0004d;
-    
+.italic, .bold, .links {
+    color:#e0004d
+} 
+
+#menu {
+    text-align: center;
 }
+
 #name {
     color: #fff;
+    text-align: center;
 }
 
 #foto {
-    border-radius: 10%;
-    border-width: 5px;
-    border-color: black;
-    border-style: outset;
+    width: 400px;
+    position: absolute;
+    margin-left: 10%;
+    background-color: black;
+    padding: 5px
 }
 
-.italic {
-    color:#e0004d
+#description {
+    position: absolute;
+    left: 50%; 
+}
+#text {
+    text-align: justify;
 }
 
-.bold {
+#skills {
+    position: absolute;
+    top: 450px;
+    left: 25%;
+}
+
+#like {
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    margin-right: 10px;
+}
+
+
+.odd {
+    text-decoration: underline;
     color: #e0004d;
-}
-
-#org {
-    font-size: 20px;
-}
-
-#work {
-    font-size: 18px; 
-}
-
-#html {
-    font-size: 16px;
-}
-
-#js {
-    font-size: 14px;
-}
-
-#css {
-    font-size: 12px;
 }
