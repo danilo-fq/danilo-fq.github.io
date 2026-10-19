@@ -1,0 +1,275 @@
+/* START RESET */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+/* END RESET */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-color: #121214;
+  font-family:  "Roboto", sans-serif;
+  color: #C4C4CC;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #E1E1E6;
+}
+
+a {
+  color: #C4C4CC;
+}
+
+header {
+  background-color: #202024;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+}
+
+header > nav {
+  margin: auto 0;
+}
+
+.menu {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 0 10px;
+}
+
+.menu > li > a:hover {
+  color: #00B37E;
+  text-decoration: underline;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+main > section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px 0;
+}
+
+main > section#sobre {
+  align-items: center;
+  flex-direction: row;
+  gap: 0 15px;
+  justify-content: center;
+  max-width: 80%;
+}
+
+#sobre > img {
+  border-radius: 100%;
+}
+
+#sobre > article {
+  width: 600px;
+}
+
+#sobre > article > h1 {
+  margin-bottom: 15px;
+}
+#sobre > article > p > strong {
+  background-color: #00B37E;
+  color: #202024;
+}
+
+#formacao > table {
+  align-self: center;
+  width: fit-content;
+  border-collapse: collapse;
+}
+
+table > thead > tr > th {
+  border-bottom: 2px solid #00B37E;
+  color: #E1E1E6;
+  font-weight: bold;
+  padding: 8px 16px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+table > tbody > tr > td {
+  border-bottom: 1px solid #29292E;
+  padding: 8px 16px;
+}
+
+table > tbody > tr:last-child > td {
+  border-bottom: none;
+}
+
+table > tbody > tr:hover > td {
+  background-color: #202024;
+  color: #E1E1E6;
+  cursor: default;
+}
+
+.tag {
+  background-color: #202024;
+  border: 1px solid #29292E;
+  border-radius: 999px;
+  color: #E1E1E6;
+  padding: 8px 16px;
+  width: fit-content;
+  margin-bottom: 8px;
+}
+
+#lista-habilidades {
+  display: flex;
+  gap: 0 10px;
+  justify-content: center;
+}
+
+.tag:hover {
+  border-color: #00B37E;
+  color: #00B37E;
+  cursor: default;
+}
+
+#projetos {
+  align-items: center;
+}
+
+#projetos > h2 {
+  align-self: flex-start;
+}
+
+#projetos > a {
+  background-color: #202024;
+  border: 1px solid #29292E;
+  border-left: 3px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 16px 20px;
+  width: 80%;
+}
+
+#projetos > a:hover {
+  border-left-color: #00B37E;
+}
+
+#projetos > a > h3 {
+  color: #E1E1E6;
+  font-weight: bold;
+}
+
+#projetos > a:hover > h3 {
+  color: #00B37E;
+}
+
+#projetos > a > p {
+  color: #7C7C8A;
+  margin-top: 8px;
+}
+
+footer {
+  align-items: center;
+  background-color: #202024;
+  border-top: 1px solid #29292E;
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0;
+  height: auto;
+  padding: 15px 0;
+  text-align: center;
+}
+
+footer > section {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+footer > section> article > nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+footer > section> article > nav > a:hover {
+  color: #00B37E;
+}
+
+footer > section > article > h3 {
+  color: #E1E1E6;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+#formulario-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+  width: 40%;
+}
+
+#formulario-contato > h3 {
+  color: #E1E1E6;
+  font-weight: bold;
+}
+
+#formulario-contato > p {
+  color: #7C7C8A;
+  font-size: 12px;
+}
+
+#formulario-contato > input, #formulario-contato > textarea {
+  background-color: #121214;
+  border: 1px solid #29292E;
+  border-radius: 8px;
+  color: #E1E1E6;
+  padding: 10px 14px;
+  resize: none;
+}
+
+/* #formulario-contato button {
+  background-color: #00B37E;
+  border: none;
+  border-radius: 4px;
+  color: #121214;
+  font-weight: bold;
+  width: fit-content;
+  align-self: center;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+#formulario-contato > button:hover {
+  background-color: #00C58B;
+} */
+
+footer > p > a:hover {
+  color: #00B37E;
+}
+
+
