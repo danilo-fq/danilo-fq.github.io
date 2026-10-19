@@ -1,91 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Web - Danilo Ferreira</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
 
-  <body>
-      <div id="menu">
-        <a class="links" href="#foto">Minha foto</a>
-        <a class="links" href="#sobre">Minha breve história</a>
-        <a class="links" href="#gosto">Gostos</a>
-        <a
-          class="links"
-          href="https://www.linkedin.com/in/danilo-fq/"
-          target="_blanck"
-          >Linkedin
-        </a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"        rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Meu Portfólio</title>
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#formacao">Minha Formação</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="sobre">
+      <img width="250px" src="./img/foto.jpg" alt="Foto Perfil de Danilo Ferreira">
+      <article>
+        <h1>Seja Bem-vindo, me chamo Danilo Ferreira 👋</h1>
+        <p>Sou estudante do segundo período de Análise e Desenvolvimento de Sistemas na UNIPE. Possuo uma graduação na área de Engenharia de Energias Renováveis e estou fazendo essa transição de carreira por gostar de desenvolver
+        aplicações web. Atualmente busco <strong>experiência profissional na área de desenvolvimento web
+        fullstack.</strong></p>
+      </article>
+    </section>
+
+    <section id="formacao">
+      <h2>Minha Formação:</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Formação</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Eng. Energias Renováveis</td>
+            <td>Completo</td>
+          </tr>
+          <tr>
+            <td>Análise e Desenv. Sistemas</td>
+            <td>Em Andamento</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="habilidades justify-content-center">
+      <div class="row justify-content-center gap-4">
+        <h2>Habilidades:</h2>
+        <ul id="lista-habilidades" class="flex-wrap">
+          <li class="tag">HTML</li>
+          <li class="tag">CSS</li>
+          <li class="tag">Javascript</li>
+          <li class="tag">React.js</li>
+          <li class="tag tag-soft">Trabalho em Equipe</li>
+          <li class="tag tag-soft">Organizado</li>
+        </ul>
       </div>
-    
+    </section>
 
-    <div id="name">
-      <h1>DANILO FERREIRA QUEIROZ</h1>
-    </div>
+    <section id="projetos">
+      <h2>Projetos:</h2>
+      <a href="https://github.com/danilo-fq/wsFrontend-Fabrica26.1" target="_blank" rel="noopener noreferrer">
+        <h3>Rick and Morty Portal Gun</h3>
+        <p>Descrição do Projeto</p>
+      </a>
+      <a href="https://github.com/danilo-fq/app-receitas" target="_blank" rel="noopener noreferrer">
+        <h3>App receitas</h3>
+        <p>Descrição do Projeto</p>
+      </a>
+      <a href="https://github.com/danilo-fq/projeto-sistema-de-votacao" target="_blank" rel="noopener noreferrer">
+        <h3>Sistema de Votação Eletrônica</h3>
+        <p>Descrição do Projeto</p>
+      </a>
+    </section>
 
-    <h2 id="portfolio" class="title">Portfólio Web</h2>
+    <section>
+      <h2>Meu Objetivo Profissional:</h2>
+      <p>Busco uma oportunidade na área de desenvolvimento fullstack, em um lugar onde eu conviva com pessoas mais
+        experientes e consiga evoluir dentro da empresa bem como conseguir entregar valor.</p>
+    </section>
+  </main>
 
-    <div>
-      <img id="foto" src="imagens/danilo.jpeg" alt="foto de Danilo Ferreira" />
-    </div>
+  <footer id="contato">
+    <section>
+      <article>
+        <h3>Minhas Redes Sociais</h3>
+        <nav>
+          <a href="https://github.com/danilo-fq" target="_blank" rel="noopener noreferrer">Github</a>
+          <a href="https://www.linkedin.com/in/danilo-fq/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+        </nav>
+      </article>
+      <form action="" id="formulario-contato">
+        <h3>Contato</h3>
+        <p>Entre em contato agora mesmo!</p>
+        <input type="text" placeholder="Digite seu nome" minlength="3" required>
+        <input type="email" placeholder="Digite seu E-mail" required>
+        <textarea name="" id="" placeholder="Deixe sua mensagem" required></textarea>
+        <button onclick="alert('Mensagem enviada com sucesso!')">Enviar</button>
+      </form>
+    </section>
 
-    <div id="description">
-      <h3 id="sobre" class="title">Sobre</h3>
-      <p id="text">
-        <em class="italic">Brasileiro</em> natural de
-        <em class="italic">João Pessoa - PB</em> lugar onde o sol nasce
-        primeiro.<br />
-        Sou
-        <strong class="bold">
-          estudante de Desenvolvimento Web pela Trybe
-        </strong>
-        iniciado em janeiro de 2022.<br />Sou formado em
-        <em class="italic">Engenharia de Energias Renováveis</em> pela UFPB onde
-        possuo <strong class="bold">um <br />ano de experiência</strong> na área
-        de <strong class="bold">projetos fotovoltaicos</strong>. Decidi migrar
-        de área <br />devido a finalidade que tenho com computadores, ao longo
-        da minha jornada <br />profissional percebi certa inclinação pela área
-        de tecnologia e <br />a pandemia foi um catalisador para essa migração.
-      </p>
-    </div>
+    <p>Todos os Direitos Reservados. Desenvolvido por <a href="https://github.com/danilo-fq" target="_blank">Danilo
+        Ferreira</a>.</p>
+  </footer>
+</body>
 
-    
-    <div id="skills">
-        <h3 class="title">Habilidades Desenvolvidas</h3>
-        <ul>
-          <li id="org" class="odd"><strong>Organização</strong></li>
-          <li id="work">Trabalho em Equipe</li>
-          <li id="html" class="odd">HTML</li>
-          <li id="js">JavaScript</li>
-          <li id="css" class="odd">CSS</li>
-        </ul> 
-    </div>
-
-    <div id="like">
-      <h3 id="gosto" class="title">O que eu mais gosto de fazer</h3>
-      <ol>
-        <li>
-          Jogar no PC em grupo (
-          <a class="links" href="https://us.diablo3.com/pt-br/">Diablo</a>,
-          <a class="links" href="https://www.leagueoflegends.com/pt-br/"
-            >League of Legends</a
-          >,
-          <a class="links" href="https://playvalorant.com/pt-br/">Valorant</a>
-          )
-        </li>
-        <li>Jogar Futebol</li>
-        <li>Praticar Jiu Jitsu</li>
-        <li>
-          Assistir animes (<a
-            class="links"
-            href="https://www.crunchyroll.com/pt-br/attack-on-titan"
-            >Atual</a
-          >)
-        </li>
-      </ol>
-    </div>
-  </body>
 </html>
