@@ -84,7 +84,3 @@ table > tbody > tr:hover > td {
   --bs-btn-active-border-color: #00C58B;
   --bs-btn-border-radius: 4px;
 }
-
-#formulario-contato textarea {
-  resize: none;
-}

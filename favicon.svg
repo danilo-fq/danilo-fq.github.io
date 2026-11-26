@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180" role="img" aria-label="Danilo Ferreira Queiroz — Portfólio">
+  <rect width="180" height="180" fill="#121214" />
+
+  <g transform="translate(38.8,6) scale(1.6)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="25,20 13,32 25,44" stroke="#00B37E" stroke-width="5" />
+    <polyline points="39,20 51,32 39,44" stroke="#00B37E" stroke-width="5" />
+    <line x1="34.5" y1="19" x2="29.5" y2="45" stroke="#E1E1E6" stroke-width="5" />
+  </g>
+
+  <g fill="none" stroke="#E1E1E6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M41 104 V140 M41 104 H53 A18 18 0 0 1 53 140 H41" />
+    <path d="M78 104 V140 M78 104 H101 M78 122 H97" />
+    <circle cx="129" cy="122" r="18" />
+    <path d="M133 131 L142 143" />
+  </g>
+</svg>
