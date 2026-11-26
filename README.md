@@ -60,7 +60,9 @@ A página é dividida em seis blocos — apresentação, sobre, formação, habi
 ├── scripts/
 │   └── script.js       # ano automático no rodapé
 └── img/
-    └── foto.jpg        # foto de perfil
+    ├── foto.jpg                  # foto de perfil
+    ├── apple-touch-icon.svg      # lockup </> + DFQ (fonte editável)
+    └── apple-touch-icon.png      # 180×180 gerado a partir do SVG, para atalhos no iOS
 ```
 
 ## Rodando localmente
