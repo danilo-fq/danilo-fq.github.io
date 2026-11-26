@@ -1,6 +1,6 @@
 # Portfólio — Danilo Ferreira
 
-Meu portfólio pessoal, onde reúno quem eu sou, o que estou estudando e os projetos que venho construindo na transição para o desenvolvimento web.
+Meu portfólio pessoal, onde reúno quem eu sou, o que estou estudando, minhas experiências e os projetos que venho construindo na transição para o desenvolvimento web.
 
 🔗 **Site:** https://danilo-fq.github.io/
 
@@ -12,20 +12,31 @@ Meu portfólio pessoal, onde reúno quem eu sou, o que estou estudando e os proj
 
 ## Sobre o projeto
 
-Sou estudante do 2º período de Análise e Desenvolvimento de Sistemas na UNIPE e venho de uma graduação em Engenharia de Energias Renováveis. Este site nasceu como exercício das aulas de front-end e virou o lugar onde testo, na prática, o que aprendo: layout responsivo, componentes do Bootstrap, variáveis de CSS e um pouco de JavaScript.
+Sou estudante de Análise e Desenvolvimento de Sistemas na UNIPE e venho de uma graduação em Engenharia de Energias Renováveis. Este site nasceu como exercício das aulas de front-end e virou o lugar onde testo, na prática, o que aprendo: layout responsivo, componentes do Bootstrap, variáveis de CSS e um pouco de JavaScript.
 
-A página é dividida em cinco blocos — apresentação, sobre, formação, habilidades e projetos — e termina com um rodapé de contato com minhas redes e um formulário.
+A página é dividida em seis blocos — apresentação, sobre, formação, habilidades, projetos e experiência prática — e termina com um rodapé de contato com minhas redes e e-mail.
 
 É um projeto simples de propósito: sem framework, sem build, sem dependências instaladas. Só HTML, CSS e JS, publicados direto pelo GitHub Pages.
 
 ## O que tem na página
 
-- **Apresentação** — quem sou, o que estou cursando e o que busco (estágio/júnior em desenvolvimento fullstack).
+- **Apresentação** — quem sou, o que estou cursando e o que busco (estágio/júnior em desenvolvimento full stack).
 - **Sobre** — o resumo da minha transição de carreira.
-- **Formação** — tabela com os cursos e o status de cada um.
-- **Habilidades** — tags com as tecnologias e competências que estou desenvolvendo.
-- **Projetos** — cards com link para os repositórios no GitHub.
-- **Contato** — redes sociais, formulário e o ano atualizado automaticamente.
+- **Formação** — tabela com os cursos e o status de cada um, além do objetivo profissional.
+- **Habilidades** — tags agrupadas em frontend, backend e ferramentas e práticas.
+- **Projetos em destaque** — cards com descrição, stack em badges e links para código e demo.
+- **Experiência prática** — Fábrica de Software (UNIPÊ) e freelance em WordPress.
+- **Contato** — redes sociais, e-mail e o ano atualizado automaticamente.
+
+## Projetos em destaque
+
+| Projeto | Stack |
+|---|---|
+| [Brev.ly — Encurtador de URLs](https://github.com/danilo-fq/brevly) | TypeScript, Fastify, React, PostgreSQL, Docker |
+| [Rick and Morty Portal Gun](https://github.com/danilo-fq/wsFrontend-Fabrica26.1) | Next.js, TypeScript, Tailwind CSS, API REST |
+| [TechEventos — Catálogo de eventos](https://github.com/danilo-fq/tech-eventos) | HTML5, CSS3, JavaScript, Bootstrap |
+| [Carteira Digital — Simulação bancária](https://github.com/danilo-fq/carteira-digital-c) | C, structs, algoritmos |
+| [My Personal Chef — App de receitas](https://github.com/danilo-fq/app-receitas) | React, Context API, React Hooks, Jest |
 
 ## Tecnologias
 
@@ -33,8 +44,8 @@ A página é dividida em cinco blocos — apresentação, sobre, formação, hab
 |---|---|
 | HTML5 | Estrutura semântica (`header`, `main`, `section`, `article`, `footer`) |
 | CSS3 | Estilos próprios, variáveis e ajustes sobre o tema dark |
-| Bootstrap 5.3.8 | Grid, navbar, cards, tabela, formulário e utilitários (via CDN) |
-| JavaScript (vanilla) | Ano no rodapé e interações do formulário |
+| Bootstrap 5.3.8 | Grid, navbar, cards, tabela, badges e utilitários (via CDN) |
+| JavaScript (vanilla) | Ano atualizado automaticamente no rodapé |
 | Google Fonts | Fonte Roboto |
 | GitHub Pages | Hospedagem estática a partir da branch `main` |
 
@@ -46,7 +57,7 @@ A página é dividida em cinco blocos — apresentação, sobre, formação, hab
 ├── css/
 │   └── style.css       # tema dark, tipografia e ajustes finos
 ├── scripts/
-│   └── script.js       # ano automático e comportamento do formulário
+│   └── script.js       # ano automático no rodapé
 └── img/
     └── foto.jpg        # foto de perfil
 ```
@@ -61,14 +72,11 @@ O site é publicado automaticamente pelo **GitHub Pages** a cada push na branch 
 
 Para atualizar o site, é só commitar e dar push na `main`.
 
-## Sobre o formulário
-
-O layout do formulário está pronto, mas o envio ainda não está ligado a nenhum serviço — hoje ele é apenas visual. A ideia é integrar um serviço de formulário para sites estáticos (sem precisar de backend) para receber as mensagens por e-mail.
-
 ## Contato
 
 - GitHub: [@danilo-fq](https://github.com/danilo-fq)
 - LinkedIn: [danilo-fq](https://www.linkedin.com/in/danilo-fq/)
+- E-mail: [danilof.queiroz1@gmail.com](mailto:danilof.queiroz1@gmail.com)
 - Site: [https://danilo-fq.github.io/](https://danilo-fq.github.io/)
 
 Se encontrar algum problema ou tiver uma sugestão, fico feliz com uma issue aberta no repositório.
