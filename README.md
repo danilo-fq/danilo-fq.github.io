@@ -54,15 +54,14 @@ A página é dividida em seis blocos — apresentação, sobre, formação, habi
 ```
 .
 ├── index.html          # página única do portfólio
-├── favicon.svg         # ícone do site (SVG, sem dependências)
+├── favicon.svg         # ícone do site: </> + DFQ (fonte única, sem dependências)
 ├── css/
 │   └── style.css       # tema dark, tipografia e ajustes finos
 ├── scripts/
 │   └── script.js       # ano automático no rodapé
 └── img/
     ├── foto.jpg                  # foto de perfil
-    ├── apple-touch-icon.svg      # lockup </> + DFQ (fonte editável)
-    └── apple-touch-icon.png      # 180×180 gerado a partir do SVG, para atalhos no iOS
+    └── apple-touch-icon.png      # 180×180 gerado a partir do favicon.svg, para atalhos no iOS
 ```
 
 ## Rodando localmente
