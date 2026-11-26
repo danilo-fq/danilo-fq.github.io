@@ -71,13 +71,7 @@ A página é dividida em seis blocos — apresentação, sobre, formação, habi
 O `<head>` declara `title`, `meta description`, `canonical` e as metatags **Open Graph** e **Twitter Card**, para que o link tenha um card com título, descrição e imagem ao ser compartilhado no WhatsApp, LinkedIn, Discord e X.
 
 - `og:image` aponta para `img/og-image.png` em **URL absoluta** (obrigatório para os scrapers das redes).
-- A arte é 1200×630 (proporção 1,91:1) e tem fonte editável em `img/og-image.svg`, rasterizada com:
-
-```powershell
-npx --yes sharp-cli -i img/og-image.svg -o img/og-image.png resize 1200 630
-```
-
-Depois de mudar a imagem ou os textos, vale revalidar com o [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/) e o [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/), que guardam cache do preview.
+- A arte é 1200×630 (proporção 1,91:1)
 
 ## Rodando localmente
 
