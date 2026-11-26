@@ -54,6 +54,7 @@ A página é dividida em seis blocos — apresentação, sobre, formação, habi
 ```
 .
 ├── index.html          # página única do portfólio
+├── favicon.svg         # ícone do site (SVG, sem dependências)
 ├── css/
 │   └── style.css       # tema dark, tipografia e ajustes finos
 ├── scripts/
